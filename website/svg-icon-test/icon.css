@@ -1,0 +1,45 @@
+html {
+  --fg: #FFFFFF;
+  --bg: #06110E;
+  --fx: #00FFBC;
+  --grey: #525A57;
+  color: var(--fg);
+  background-color: var(--bg);
+}
+
+
+section { }
+
+img.small{ width:64px; height:64px; }
+img.medium{ width:128px; height:128px; }
+img.big{ width:512px; height:512px; }
+
+
+img:hover{
+	opacity: 0.75;
+}
+
+
+
+.background{
+
+	width:100%;
+	height:400px;
+	background-color: red;
+
+	background: url(background/background_background.svg);
+	background-repeat: repeat;
+
+
+	
+
+}
+
+
+
+
+
+
+
+
+
