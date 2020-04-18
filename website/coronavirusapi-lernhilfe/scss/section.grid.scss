@@ -1,0 +1,26 @@
+section.grid{
+
+    margin: 0 auto;
+    padding: 1em;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-gap: 1.5em;
+    
+}
+
+
+@media #{$m} { 
+    section.grid{ 
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+
+@media #{$s} { 
+    section.grid{ 
+        grid-template-columns:1fr;
+    }
+}
+
+
+

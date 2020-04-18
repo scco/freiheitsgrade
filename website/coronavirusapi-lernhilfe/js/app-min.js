@@ -1,0 +1,1 @@
+"use strict";var toggleMenu=document.querySelector(".navigation button"),menu=document.querySelector(".navigation ul");toggleMenu.addEventListener("click",(function(){var e=JSON.parse(toggleMenu.getAttribute("aria-expanded"));toggleMenu.setAttribute("aria-expanded",!e),menu.hidden=!menu.hidden}));

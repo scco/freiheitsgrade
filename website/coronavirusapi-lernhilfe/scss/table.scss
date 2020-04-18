@@ -1,0 +1,49 @@
+table{
+
+	padding: 2em;
+
+	width: 100%;
+	
+	font-size: 100%;
+	text-align: right;
+
+
+	thead{
+		line-height:1.2em;
+		tr{
+
+
+			th{
+				
+				border-bottom: 1px solid var(--bc);
+				padding-bottom: 0.5em;
+				vertical-align: bottom;
+				color: var(--fx);;
+				font-weight: 400;
+
+				&.left{
+					text-align: left;
+				}
+			}
+		}
+	}
+
+
+	tbody{
+
+		padding: 10em !important;
+		
+		tr{
+
+			td{
+				&.left{
+					text-align: left;
+				}				
+			}
+		}
+	}
+
+
+
+
+}

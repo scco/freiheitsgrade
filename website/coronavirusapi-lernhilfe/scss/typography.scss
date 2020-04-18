@@ -1,0 +1,58 @@
+h1{ 
+	font-size: 200%; 
+	line-height: 1.3em;
+	margin:0;
+	padding:0; 
+	margin-bottom:0.5em;
+	font-weight: 400;
+}
+
+
+h2{ 
+	font-size: 150%; 
+	line-height: 1.4em;
+	margin:0;
+	padding:0;
+	margin-bottom:0.5em;
+	font-weight: 400;
+}
+
+
+h3{ 
+	font-size: 100%; 
+	line-height: 1.6em;
+	margin:0;
+	padding:0;
+	margin-bottom:0.5em;
+	margin-top:0.8em;
+	font-weight: 400;
+}
+
+
+
+
+b{ font-weight: 400; }
+
+
+p{
+    margin:auto;
+    padding-bottom: 0.5em;
+}
+
+
+a{
+    color: var(--fg);
+ 
+    &:hover{
+        color: var(--fx);
+    };
+}
+
+
+ol{
+	
+}
+
+
+
+

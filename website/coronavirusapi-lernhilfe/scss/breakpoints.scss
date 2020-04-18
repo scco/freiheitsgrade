@@ -1,0 +1,8 @@
+$x:     "(min-width: 1201px)";
+$l:     "(max-width: 1200px)";
+$m:     "(max-width: 900px)";
+$s:     "(max-width: 600px)";
+
+@media #{$l} { html{ font-size: 120%; } }
+@media #{$m} { html{ font-size: 110%; } }
+@media #{$s} { html{ font-size: 80%; } }

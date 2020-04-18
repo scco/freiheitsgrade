@@ -1,0 +1,33 @@
+html{
+    --fg: #000;
+    --bg: #FFF;
+    --fx: #999999;
+    --bc: #E5E5E5;
+
+
+    --darkblue : #0F1424;
+
+    color: var(--fg);
+    background-color: var(--bg);
+    font-size:130%;
+    line-height: 1.6em;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    width:100%; 
+    font-weight: 300;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+
+
+}
+
+body{ margin:0em 0em; }
+
+
+section.hr{
+    margin:3em 0em;
+    border-bottom: 1px solid var(--bc);
+}
